@@ -1,0 +1,764 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------NAVBAR-----------------------*/
+
+.navbar {
+    background-color: #008641;
+    height: 5rem;
+    
+}
+.navbar img {
+    width: 8rem;
+    margin-left: 1.5rem;
+}
+.guest-links {
+    display: flex;
+    flex-direction: row;
+    margin-right: 1rem;
+}
+.guest-links li {
+    margin-right: 1rem;
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+.drop-down-button {
+    margin-right: 2rem;
+}
+#drop-down-menu {
+    background-color: #28a745;
+}
+.dropdown-item {
+    color: white !important;
+}
+.dropdown-item:hover {
+    background-color: #F3E300 !important;
+    color: black !important;
+    cursor: grab;
+}
+/*-------------FORM----------------*/
+
+.form {
+    border: 5px solid #28a745;
+    width: 50% !important;
+    border-radius: 10px;
+    
+}
+.form i {
+    color: #28a745;
+    margin-right: 0.7rem;
+}
+
+/*----------------------HOME---------------------------*/
+
+.city-cover {
+    margin-top: 1rem;
+    display: flex ; 
+    flex-wrap: wrap ;
+    justify-content: center;
+
+}
+.plaka-name-cover {
+    width: 62px;
+    height: 82px;
+    margin-right: 2rem;
+    padding-left: 16px;
+    margin-bottom: 1rem;
+
+}
+.plaka-no {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;   
+    background-color: #28a745;
+}
+.plaka-no:hover{
+    background-color: #F3E300;
+    border: 3px solid #28a745;
+    color: black;
+}
+.plaka-no:hover span{
+    color: black;
+}
+.plaka-no span {
+    margin: auto;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;   
+}
+.city-name {
+    padding-top: 5px;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 14px;
+    color:black;
+}
+.home-content {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: #F3E300;
+    height: 100px;
+    display: flex;
+
+}
+.home-content h4 {
+    margin: auto;
+}
+
+/*-----------HALISAHA REKLAM--------------------*/
+
+.sort-table thead tr {
+    background-color: #28a745;
+    color: white;
+    border-top-left-radius : 5px;
+}
+.sort-table thead tr:first-child th:first-child {
+    border-top-left-radius : 10px;
+}
+.sort-table thead tr:last-child th:last-child{
+    border-top-right-radius: 10px;
+}
+.sort-table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+.sort-table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+/*---------------HALISAHA SEARCH--------------*/
+
+.halisaha-properties {
+    float: left;
+    border-radius: 50px;
+    width: 170px;
+}
+.halisaha-property-body  div:nth-child(even){
+    background-color: #FFFFFF;
+}
+.halisaha-property-body  div:nth-child(odd){
+    background-color: #ECECEC;
+}
+
+.halisaha-property-header {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    height: 40px;
+}
+.halisaha-property-body input { 
+    margin-left: 5px;
+    width: 20px;
+    height: 20px; 
+    margin-right: 7px;  
+}
+.halisaha-property-body label { 
+    padding: 10px 0 10px 0;
+}
+.halisaha-search-table {
+    display: inline-block;
+    margin-left: 20px;
+    width: 75%;
+}
+
+.search-div {
+    display: flex;
+    justify-content: space-around;
+}
+.search-div[searchText] {
+    width: 500px;
+    color: red;
+}
+.halisaha-sort select{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+/*--------------PRETRANSACTIONS----------*/
+
+
+/*---------------EDIT PROFILE*/
+.img-list-cover {
+    float: left;
+    width: 25%;
+    padding-top: 10px;
+    height: 100%;
+    border-right:4px solid #28a745;
+    text-align: center;
+}
+.edit-profile-info-cover {
+    float: left;
+    width: 70%;
+}
+.edit-profile-info {
+    width: 70%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-cover {
+    border: 4px solid #28a745;
+    border-radius: 10px;
+    height: 450px;
+}
+.list-cover {
+    width: 90%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.edit-profile-info h2 {
+    text-align: center;
+}
+
+
+/*--------------HALISAHA TABLE--------------*/
+
+.rezervation-table thead th, .rezervation-table tbody tr td:first-child{
+    text-align: center;
+    color: white;
+    background-color: #008641;
+  
+}
+.rezervation-table tbody td {
+    text-align: center;
+}
+.rezervation-table-data {
+    background-color: #F3E300 !important;
+
+}
+.rezervation-table-data:hover {
+    background-color: #008641 !important;
+    color: white !important;
+}
+.rezervation-table-data:hover .table-link {
+    color: white !important;
+}
+.rezervation-table-data-full {
+    background-color: red !important;
+    color: white;
+}
+.rezervation-table .table-link {
+    color: black;
+    text-decoration: none;
+}
+/*---rezervasyon---*/
+.rezervation-page-cover {
+    display: flex;
+    justify-content: space-around;
+}
+.rezervation-table-div {
+    width: 850px;   
+}
+
+.rezervation-slider-prop {
+    width: 300px;
+
+}
+.rezervation-slider img {
+    height: 320px;
+}
+.rezervation-info {
+    background-color: #008641;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.rezervation-prop {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid #28a745;
+  border-radius: 10px;
+}
+.rezervation-prop div {
+    margin-right: 20px;
+    margin: 5px;
+    width: 110px;
+    height: 50px;
+    
+}
+.rezervation-prop div input {
+    margin-right: 2px;
+    width: 20px;
+    height: 20px;
+}
+.rezervation-prop div input:checked::before {
+  
+    background-color: #008641 !important;
+    color: red !important;
+}
+input[type="checkbox"]:checked {
+    color: red;
+    background-color: #008641 !important;
+}
+.comment-cover {
+    margin-top: 50px !important;
+    border: 3px solid #008641;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 30px;
+}
+.comment {
+    padding-top: 5px;
+    font-weight: 600;
+    font-size: 17px;
+
+}
+.comment-info {
+    border-left: 3px solid #008641;
+    text-align: center;
+
+}
+.comment-info div {
+    margin-top: 5px;
+}
+.comment-info img {
+    margin-top: 1px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+/*---------------EDIT HALISAHA--------------*/
+
+.edit-halisaha-add-image {
+    text-align: center;
+    width: 420px;
+    height: 250px;
+}
+.edit-profile-add-price {
+    width: 400px;
+    height: 270px;
+}
+.edit-halisaha-property {
+
+    width: 350px;
+    
+}
+.edit-halisaha-delete-image-div img {
+    width: 100px !important;
+    height: 100px !important;
+}
+.edit-halisaha-delete-image-div  {
+    float: left;
+    width: 100px !important;
+    height: 100px !important;
+    margin-right: 1px;
+    margin-bottom: 5px;
+}
+.edit-halisaha-delete-image {
+    width: 310px !important;
+    height: 300px;
+}
+
+
+
+
+
+@media screen and (min-width:1px) and (max-width:480px) {
+    #dropdown-basic {
+        margin-right: 0 !important;
+        font-size: 0.7rem !important;
+    }
+    .drop-down-button {
+        margin-right: 0.3rem;
+    }
+    .dropdown-item {
+        font-size: 10px;
+        width: 80px !important;
+
+    }
+    .form{
+        border: none;
+        width: 95% !important;
+        /* background-color: red; */
+    }
+    .container {
+        margin-left: 2px !important;
+        padding: 0 !important;
+       
+    }
+    .guest-links {
+        margin-right: 3px;
+    }
+    .guest-links li{
+        margin-right: 3px;
+        font-size: 0.7rem;
+    }
+    .navbar img {
+        width: 5rem;
+        margin-left: 0.5rem;
+    }
+    .navbar {
+        height: 4rem;
+       
+    }
+
+    /*Home*/
+    .home-content h4 {
+        margin: auto;
+        font-size: 12px;
+    }
+    .plaka-name-cover {
+        width: 50px;
+        height: 62px;
+        margin-right: 1.4rem;
+        padding-left: 16px;
+        margin-bottom: 0.6rem;
+    
+    }
+    .plaka-no {
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        height: 2.4rem;
+        width: 2.4rem;   
+        background-color: #28a745;
+    }
+    .city-name {
+        margin-top: 0;
+        font-size: 0.6rem;
+        font-weight: 500;
+        line-height: 12px;
+    }
+    .plaka-no span {
+        font-weight: 600;
+        font-size: 1rem;   
+    }
+
+    /*---------------HALISAHA REKLAM-------------*/
+    .halisaha-reklam-content span,p{
+        font-size: 13px ;
+    }
+    .sort-table {
+        font-size: 12px;
+        
+    }
+    /*-------------HALISAHA SEARCH----------------*/
+    .halisaha-properties {
+        width: 100%;
+    }
+    .halisaha-search-table {
+        margin-top: 10px;
+        margin-left: 1px;
+        width: 100%;
+    }
+    .halisaha-property-body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .halisaha-property-body input { 
+        margin-left: 3px;
+        width: 15px;
+        height: 15px; 
+        margin-right: 3px;          
+    }
+    .halisaha-property-body label { 
+        padding: 7px 0 7px 0;
+        font-size: 12px;
+    }
+    .halisaha-property-body  div:nth-child(even){
+        background-color: #FFFFFF;
+    }
+    .halisaha-property-body  div:nth-child(odd){
+        background-color: #FFFFFF;
+    }
+
+    /*------PRETRANSACTIONS------*/
+    .pretranstable {
+        font-size: 10px;
+        
+    }
+   
+    /*----------EDIT PROFİLE----------------*/
+    .img-list-cover {
+        float: none;
+        width: 100%;
+        padding-top: 10px;
+        height: 370px;
+        border-right:none;
+        text-align: center;
+    }
+    .img-list-cover img {
+        width: 210px;
+        height: 210px;
+    }
+    .edit-profile-info-cover {
+        width: 97%;
+        margin-bottom: 50px;
+
+    }
+    .edit-profile-info {
+        width: 100%;
+        margin-top: 5px;
+       
+      
+    }
+    .profile-cover {
+        border: none;
+        
+        
+    }
+    .profile-cover p {
+        padding: 5px;
+        border-top: 2px solid #28a745;
+        border-bottom: 2px solid #28a745;
+        font-size: large;
+    }
+    .list-cover {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    .edit-profile-info h2 {
+        text-align: center;
+    }
+
+
+
+    /*----------rezerbation--------------*/
+    .rezervation-page-cover {
+        display: block;
+        width: 100%;
+    }
+    .rezervation-slider-prop {
+        display: block;
+        width: 100% ;
+    }
+    .rezervation-prop {
+       width: 100%;
+    }
+    .rezervation-slider {
+        width: 100%;
+    }
+    .rezervation-prop  div {
+        font-size: 12px;
+    }
+    .comment-cover {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+    .comment-cover i {
+        font-size: 10px;
+    }
+    .comment-cover .comment {
+        font-size: 12px;
+    }
+    .rezervation-table thead th, .rezervation-table tbody tr td:first-child{
+        font-size: 6px;
+        margin: 0 !important;
+        padding-left: 1px;
+        padding-right: 1px;
+        text-align: left;
+    }
+    .rezervation-table tbody td, .rezervation-table i {
+        font-size: 6px;
+
+    }
+    .rezervation-info p, .rezervation-info span {
+        font-size: 10px;
+    }
+    .rezervation-info h2 {
+        font-size: 18px;
+    }
+
+    .rezervation-table-div {
+        width: 100%;   
+    }
+
+    
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+
+    /*----------EDIT PROFİLE-----------*/
+    .img-list-cover {
+        width: 35%;
+    }
+    .img-list-cover img {
+        width: 130px;
+        height: 130px;
+    }
+    .edit-profile-info-cover {
+        width: 65%;
+    }
+    .edit-profile-info {
+        width: 90%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .profile-cover {  
+        margin: 0;  
+        max-width: none !important;
+        width: 95% !important;
+    }
+    .list-cover {
+        width: 90%;
+    }
+
+    /*----REZERVATION TABLE---*/
+    .rezervation-page-cover {
+        display: block;
+    }
+    .rezervation-slider-prop {
+        display: block;
+        width: 100% ;
+    }
+    .rezervation-prop {
+       width: 100%;
+    }
+    .rezervation-slider {
+        width: 100%;
+    }
+    .rezervation-prop  div {
+        font-size: 12px;
+    }
+    .comment-cover {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+    .comment-cover i {
+        font-size: 10px;
+    }
+    .comment-cover .comment {
+        font-size: 12px;
+    }
+    .rezervation-table thead th, .rezervation-table tbody tr td:first-child{
+        font-size: 9px;
+    }
+    .rezervation-table tbody td {
+        font-size: 9px;
+    }
+    .rezervation-page-cover {
+        width: 99% !important;
+    }
+    .rezervation-table-div {
+        width: 100%;   
+    }
+  
+ 
+    
+    
+    
+}
+
+
+@media screen and (min-width:769px) and (max-width:1152px) {
+    .comment-cover {
+        width: 80% !important;
+    }
+    .comment-cover i {
+        font-size: 12px;
+    }
+    .rezervation-table thead th, .rezervation-table tbody tr td:first-child{
+        font-size: 9px;
+      
+    }
+    .rezervation-table tbody td {
+        font-size: 12px;
+    }
+    .rezervation-page-cover {
+        width: 99% !important;
+    }
+    .rezervation-table-div {
+        width: 510px;   
+    }
+    .rezervation-slider-prop {
+        width: 250px;
+    
+    }
+    .rezervation-slider img {
+        height: 250px;
+    }
+
+
+}
+
+
+/*-------------DEFAULT HOVER------------*/
+
+.default-hover {
+    background-color: #28a745 !important;
+    color: white !important;
+    padding: 0.5rem !important;
+    border-radius: 0.3rem !important;
+}
+.smallpad-hover {
+    background-color: #28a745 !important;
+    color: white !important;
+    border-radius: 0.3rem !important;
+    padding: 0.3rem !important;
+}
+.smallpad-hover:hover {
+    background-color: #F3E300 !important;
+    color: black !important;
+}
+.default-hover:hover {
+    background-color: #F3E300 !important;
+    color: black !important;
+}
+.disabled-button {
+    background-color: #F3E300 !important;
+    color: black !important;
+    border-radius: 0.3rem !important;
+    padding: 0.3rem !important;
+}
+.disabled-button:hover {
+    background-color: #28a745 !important;
+    color: white !important
+}
+
+/*-----------renkler-------------*/
+.green {
+    color: #28a745;
+}
+.yellow {
+    color: #F3E300;
+}
+.white {
+    color: white;
+}
+.black {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.textbox-green {
+    border: 2px solid green !important;
+    border-radius: 3px !important;
+    margin-bottom: 7px !important;
+}
