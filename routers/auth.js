@@ -17,7 +17,7 @@ const {
     addCommentAndPoint
 } = require("../controllers/auth")
 const router = express.Router();
-//test test teesre
+//test test teesre sdfasd dsfs
 router.post("/register", register);
 router.post("/login", login);
 router.post("/logout", logout);
